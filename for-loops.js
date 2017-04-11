@@ -1,6 +1,8 @@
-for (var i= 5; i < 120; i+=10){
-		var newNum=i + 10;
-		console.log(newNum);
+for (var i= 5; i < 130; i+=10){
+    if(i===125){
+      i= i-5;
+    }
+    console.log(i);
 }
 
 for (var i= 4096; i>1; i/=2){
